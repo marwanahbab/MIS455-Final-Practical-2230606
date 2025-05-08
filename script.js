@@ -50,5 +50,8 @@ function showCountryCards(countries) {
         details.className = 'country-details';
         info.appendChild(details);
 
+        var capital = country.capital?.[0] || 'N/A';
+
+
 }
 }
