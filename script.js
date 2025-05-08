@@ -20,3 +20,9 @@ function getCountryInfo(countryname) {
             showCountryCards(countries);
         });
 }
+
+function showCountryCards(countries) {
+    resultsContainer.innerHTML = '';
+    resultsContainer.style.display = 'grid';
+
+}
