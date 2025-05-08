@@ -46,5 +46,9 @@ function showCountryCards(countries) {
         name.textContent = country.name.common;
         info.appendChild(name);
 
+        var details = document.createElement('div');
+        details.className = 'country-details';
+        info.appendChild(details);
+
 }
 }
