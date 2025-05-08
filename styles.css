@@ -47,3 +47,20 @@ header .container {
     justify-content: space-between;
     align-items: center;
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo i {
+    font-size: 32px;
+    margin-right: 13px;
+    color: #ffffff;
+}
+
+.logo h1 {
+    font-size: 26px;
+    font-weight: 600;
+    padding-left: 10px;
+}
