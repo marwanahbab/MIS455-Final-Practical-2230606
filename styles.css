@@ -7,8 +7,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f8f9fa;
+    color: #ffffff;
+    background-image: url(background.png);
 }
 
 .container {
@@ -33,7 +33,7 @@ ul {
 }
 
 header {
-    background-color: #b40e1c;
+    background-image: url(bgcard.png);
     color: white;
     padding: 16px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -108,19 +108,19 @@ main {
     text-align: center;
     margin-bottom: 32px;
     padding: 32px;
-    background-color: white;
+    background-image: url(bgcard.png);
     border-radius: 10px;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
 }
 
 .search-section h2 {
     font-size: 32px;
-    color: #2c3e50;
+    color: #ffffff;
     margin-bottom: 8px;
 }
 
 .search-section p {
-    color: #7f8c8d;
+    color: #ffffff;
     margin-bottom: 24px;
 }
 
@@ -177,6 +177,7 @@ main {
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    background-image: url(background.png);
 }
 
 .country-card:hover {
@@ -216,7 +217,7 @@ main {
 }
 
 footer {
-    background-color: #b40e1c;
+    background-image: url(bgcard.png);
     color: white;
     padding: 48px 0 16px;
     margin-top: 32px;
