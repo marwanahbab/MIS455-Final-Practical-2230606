@@ -37,6 +37,10 @@ function showCountryCards(countries) {
         flag.className = 'country-flag';
         card.appendChild(flag);
 
+        var info = document.createElement('div');
+        info.className = 'country-info';
+        card.appendChild(info);
+
         
 
 }
