@@ -58,6 +58,11 @@ function showCountryCards(countries) {
             var c = country.currencies[keys[0]];
             currency = c.name + ' (' + (c.symbol || keys[0]) + ')';
         }
+        var languages = 'N/A';
+        if (country.languages) {
+            languages = Object.values(country.languages).join(', ');
+        }
+
 
 
 }
