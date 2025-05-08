@@ -321,3 +321,15 @@ footer {
     top: 4px;
     color: #3498db;
 }
+
+.linkbutton {
+    background-color: #b40e1c;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+}
