@@ -214,3 +214,45 @@ main {
 .value {
     color: #34495e;
 }
+
+footer {
+    background-color: #b40e1c;
+    color: white;
+    padding: 48px 0 16px;
+    margin-top: 32px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 32px;
+    margin-bottom: 32px;
+}
+
+.footer-section h3 {
+    font-size: 19px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.footer-section h3::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 8px;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    color: #581616;
+}
