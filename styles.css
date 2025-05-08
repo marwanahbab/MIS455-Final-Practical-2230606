@@ -31,3 +31,19 @@ a:hover {
 ul {
     list-style: none;
 }
+
+header {
+    background-color: #b40e1c;
+    color: white;
+    padding: 16px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
