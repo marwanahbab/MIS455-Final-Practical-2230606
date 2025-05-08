@@ -25,4 +25,12 @@ function showCountryCards(countries) {
     resultsContainer.innerHTML = '';
     resultsContainer.style.display = 'grid';
 
+    for (var i = 0; i < countries.length; i++) {
+        var country = countries[i];
+
+        var card = document.createElement('div');
+        card.className = 'country-card';
+        
+
+}
 }
