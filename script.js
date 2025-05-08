@@ -30,6 +30,13 @@ function showCountryCards(countries) {
 
         var card = document.createElement('div');
         card.className = 'country-card';
+
+        var flag = document.createElement('img');
+        flag.src = country.flags.svg || country.flags.png;
+        flag.alt = 'Flag of ' + country.name.common;
+        flag.className = 'country-flag';
+        card.appendChild(flag);
+
         
 
 }
