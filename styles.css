@@ -136,6 +136,14 @@ main {
     overflow: hidden;
 }
 
+#country-input {
+    flex: 1;
+    padding: 16px 24px;
+    border: none;
+    font-size: 16px;
+    outline: none;
+}
+
 #search-form button {
     background-color: #b40e1c;
     color: white;
@@ -154,6 +162,7 @@ main {
 #search-form button i {
     margin-right: 8px;
 }
+
 
 .results-container {
     display: grid;
