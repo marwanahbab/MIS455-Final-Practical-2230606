@@ -73,3 +73,15 @@ function showCountryCards(countries) {
         resultsContainer.appendChild(card);
 }
 }
+
+function addDetailRow(container, label, value) {
+    var labelSpan = document.createElement('span');
+    labelSpan.className = 'label';
+    labelSpan.textContent = label + ':';
+    container.appendChild(labelSpan);
+
+    var valueSpan = document.createElement('span');
+    valueSpan.className = 'value';
+    valueSpan.textContent = value;
+    container.appendChild(valueSpan);
+}
