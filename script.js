@@ -52,6 +52,13 @@ function showCountryCards(countries) {
 
         var capital = country.capital?.[0] || 'N/A';
 
+        var currency = 'N/A';
+        if (country.currencies) {
+            var keys = Object.keys(country.currencies);
+            var c = country.currencies[keys[0]];
+            currency = c.name + ' (' + (c.symbol || keys[0]) + ')';
+        }
+
 
 }
 }
