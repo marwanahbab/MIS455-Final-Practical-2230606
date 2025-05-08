@@ -8,3 +8,15 @@ searchForm.onsubmit = function(event) {
     getCountryInfo(countryInput.value);
     return false;
 };
+
+function getCountryInfo(countryname) {
+    var url = `https://restcountries.com/v3.1/name/${countryname}`;
+    
+    fetch(url)
+        .then(function(response) {
+            return response.json();
+        })
+        .then(function(countries) {
+            showCountryCards(countries);
+        });
+}
