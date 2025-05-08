@@ -256,3 +256,67 @@ footer {
 .footer-section ul li a:hover {
     color: #581616;
 }
+
+.about-section {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+    padding: 32px;
+}
+
+.about-section h2 {
+    font-size: 32px;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+}
+
+.about-image img {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-text h3 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 16px;
+    margin-top: 32px;
+}
+
+.about-text h3:first-child {
+    margin-top: 0;
+}
+
+.about-text p {
+    color: #34495e;
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.about-list {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0 24px;
+}
+
+.about-list li {
+    margin-bottom: 12px;
+    padding-left: 24px;
+    position: relative;
+    color: #34495e;
+}
+
+.about-list li i {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    color: #3498db;
+}
