@@ -205,3 +205,12 @@ main {
     grid-template-columns: auto 1fr;
     gap: 8px 16px;
 }
+
+.label {
+    font-weight: 600;
+    color: #7f8c8d;
+}
+
+.value {
+    color: #34495e;
+}
