@@ -63,7 +63,13 @@ function showCountryCards(countries) {
             languages = Object.values(country.languages).join(', ');
         }
 
+        addDetailRow(details, 'Capital', capital);
+        addDetailRow(details, 'Currency', currency);
+        addDetailRow(details, 'Region', country.region || 'N/A');
+        addDetailRow(details, 'Subregion', country.subregion || 'N/A');
+        addDetailRow(details, 'Population', country.population?.toLocaleString() || 'N/A');
+        addDetailRow(details, 'Languages', languages);
 
-
+        resultsContainer.appendChild(card);
 }
 }
